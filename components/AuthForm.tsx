@@ -74,7 +74,7 @@ const AuthForm = ({type}: {type: string}) => {
             <>
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-                    
+
                         <CustomInput 
                             control={form.control}
                             name="email" label="email"
